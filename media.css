@@ -1,0 +1,84 @@
+@media (max-width: 68em) {
+  main {
+    grid-template-columns: auto;
+    row-gap: 0;
+  }
+
+  .logo {
+    align-self: start;
+  }
+
+  .left-section {
+    align-items: center;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .right-section {
+    margin-top: 6rem;
+    margin-left: 0rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .right-section p {
+    font-size: 1.8rem;
+  }
+
+  footer {
+    margin-top: 6.4rem;
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 31em) {
+  body {
+    background: var(--violet) url(images/bg-mobile.svg) no-repeat;
+  }
+
+  main {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    padding: 4rem;
+
+    justify-items: center;
+  }
+
+  .left-section {
+    display: flex;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .diagram {
+    margin-top: 6.98rem;
+    max-width: 29.6rem;
+    height: auto;
+  }
+
+  .title {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+
+  .right-section p {
+    margin-top: 1.6rem;
+  }
+
+  .right-section {
+    margin-top: 6rem;
+    margin-left: 0rem;
+    align-items: center;
+    max-width: 45rem;
+    text-align: center;
+    gap: 0;
+  }
+
+  button {
+    margin-top: 2.4rem;
+  }
+}
