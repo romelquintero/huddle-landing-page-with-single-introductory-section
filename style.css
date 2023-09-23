@@ -19,8 +19,6 @@ body {
   display: flex;
   min-height: 100vh;
   background: var(--violet) url(images/bg-desktop.svg) no-repeat;
-  /* background-position: left; */
-  /* background-size: cover; */
   justify-content: center;
   align-items: inherit;
   font-family: "Open Sans", sans-serif;
@@ -89,9 +87,9 @@ button:active {
 }
 
 .diagram {
-  max-width: 72.9rem;
+  max-width: 70.9rem;
   width: 100%;
-  margin-top: 7.65rem;
+  margin-top: 8.65rem;
 }
 
 footer {
