@@ -31,7 +31,7 @@ main {
   margin: 0 auto;
   max-width: 144rem;
   display: grid;
-  grid-template-columns: 54% 46%;
+  grid-template-columns: 55% 45%;
   grid-template-rows: auto 1fr;
   padding: 0 8rem;
 }
@@ -84,13 +84,12 @@ button:active {
 }
 
 .logo {
-  margin-top: 6.4rem;
-  max-width: 20rem;
-  width: 100%;
+  margin-top: 5.4rem;
+  max-width: 21.5rem;
 }
 
 .diagram {
-  max-width: 68.6rem;
+  max-width: 71.9rem;
   width: 100%;
   margin-top: 7.65rem;
 }
